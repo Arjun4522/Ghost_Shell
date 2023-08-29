@@ -1,5 +1,5 @@
 # Ghost(Linux Fileless Malware)
-Ghost is a Linux Fileless Malware that takes advantage of the fork() system call. The malware creates a reverse TCP connection to the attacker system. Once fork() is called, the parent process detaches itself from the terminal, while the child process continues and spawns a remote blind shell on the attacker system. Finally, the malware removes itself from storage after execution, hence leaving no footprints on the target system. 
+Ghost is a Linux Fileless Malware that takes advantage of the fork() system call. The malware creates a reverse TCP connection to the attacker system. Once fork() is called, the parent process detaches itself from the terminal, while the child process continues and spawns a remote shell on the attacker system. Finally, the malware removes itself from storage after execution, hence leaving no footprints on the target system. 
 
 ## Demo
 Target System:
