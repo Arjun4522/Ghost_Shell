@@ -11,6 +11,9 @@ Attacker System:
 
 ![attacker_ghost](https://github.com/Arjun4522/Ghost_Shell/assets/94633408/2866db7c-5ff0-46ed-984c-13e25ab40b3e)
 
+As it is shown above, the malware deletes itself after execution, however
+leaving the reverse shell connection
+intact.
 
 ## Disclaimer
 This repository is intended for educational and informational purposes only. However, the usage of similar code for unauthorized access to computer systems or 
